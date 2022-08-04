@@ -82,6 +82,7 @@ GameHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 GameHub.BackgroundTransparency = 1.000
 GameHub.Position = UDim2.new(0.222222224, 0, 0.137404576, 0)
 GameHub.Size = UDim2.new(0, 406, 0, 228)
+GameHub.Active = true
 
 Arsenal.Name = "Arsenal"
 Arsenal.Parent = GameHub
@@ -108,6 +109,9 @@ OwlHub.TextColor3 = Color3.fromRGB(255, 255, 255)
 OwlHub.TextScaled = true
 OwlHub.TextSize = 14.000
 OwlHub.TextWrapped = true
+OwlHub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
 
 TextButton.Parent = GameHub
 TextButton.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
