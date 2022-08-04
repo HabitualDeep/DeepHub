@@ -8,11 +8,15 @@ local DeepHubV1 = Instance.new("Frame")
 local Close = Instance.new("TextButton")
 local Minimize = Instance.new("TextButton")
 local LocalPlayer = Instance.new("Frame")
+local Speed = Instance.new("TextLabel")
+local SetSpeed = Instance.new("TextBox")
+local Jump = Instance.new("TextLabel")
+local SetJump = Instance.new("TextBox")
 local GameHub = Instance.new("Frame")
 local Arsenal = Instance.new("TextButton")
 local OwlHub = Instance.new("TextButton")
-local TextButton = Instance.new("TextButton")
-local TextButton_2 = Instance.new("TextButton")
+local BloxFruits = Instance.new("TextButton")
+local LOTBS = Instance.new("TextButton")
 local Credits = Instance.new("Frame")
 local CreditsButton = Instance.new("TextButton")
 local GameHubButton = Instance.new("TextButton")
@@ -38,7 +42,7 @@ DeepHubV1.Name = "DeepHubV1"
 DeepHubV1.Parent = DeepGUI
 DeepHubV1.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
 DeepHubV1.BorderSizePixel = 0
-DeepHubV1.Position = UDim2.new(0.19250448, 0, 0.239603966, 0)
+DeepHubV1.Position = UDim2.new(0.120169461, 0, 0.199999988, 0)
 DeepHubV1.Size = UDim2.new(0, 522, 0, 262)
 
 Close.Name = "Close"
@@ -70,19 +74,71 @@ Minimize.TextWrapped = true
 
 LocalPlayer.Name = "LocalPlayer"
 LocalPlayer.Parent = DeepHubV1
+LocalPlayer.Active = true
 LocalPlayer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 LocalPlayer.BackgroundTransparency = 1.000
 LocalPlayer.Position = UDim2.new(0.222222224, 0, 0.109433964, 0)
 LocalPlayer.Size = UDim2.new(0, 406, 0, 236)
-LocalPlayer.Visible = false
+
+Speed.Name = "Speed"
+Speed.Parent = LocalPlayer
+Speed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Speed.BackgroundTransparency = 1.000
+Speed.Position = UDim2.new(0.123630092, 0, 0.291596621, 0)
+Speed.Size = UDim2.new(0, 133, 0, 36)
+Speed.Font = Enum.Font.SourceSans
+Speed.Text = "Set JumpPower Default is 50"
+Speed.TextColor3 = Color3.fromRGB(255, 255, 255)
+Speed.TextScaled = true
+Speed.TextSize = 14.000
+Speed.TextWrapped = true
+
+SetSpeed.Name = "SetSpeed"
+SetSpeed.Parent = Speed
+SetSpeed.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+SetSpeed.BorderSizePixel = 0
+SetSpeed.Position = UDim2.new(-0.302963406, 0, -0.0758096874, 0)
+SetSpeed.Size = UDim2.new(0, 40, 0, 40)
+SetSpeed.Font = Enum.Font.SourceSans
+SetSpeed.Text = ""
+SetSpeed.TextColor3 = Color3.fromRGB(255, 255, 255)
+SetSpeed.TextScaled = true
+SetSpeed.TextSize = 14.000
+SetSpeed.TextWrapped = true
+
+Jump.Name = "Jump"
+Jump.Parent = LocalPlayer
+Jump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Jump.BackgroundTransparency = 1.000
+Jump.Position = UDim2.new(0.115216181, 0, 0.0730365813, 0)
+Jump.Size = UDim2.new(0, 137, 0, 40)
+Jump.Font = Enum.Font.SourceSans
+Jump.Text = "Set Walkspeed  Default is 16"
+Jump.TextColor3 = Color3.fromRGB(255, 255, 255)
+Jump.TextScaled = true
+Jump.TextSize = 14.000
+Jump.TextWrapped = true
+
+SetJump.Name = "SetJump"
+SetJump.Parent = Jump
+SetJump.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+SetJump.Position = UDim2.new(-0.26703614, 0, 0, 0)
+SetJump.Size = UDim2.new(0, 40, 0, 40)
+SetJump.Font = Enum.Font.SourceSans
+SetJump.Text = ""
+SetJump.TextColor3 = Color3.fromRGB(255, 255, 255)
+SetJump.TextScaled = true
+SetJump.TextSize = 14.000
+SetJump.TextWrapped = true
 
 GameHub.Name = "GameHub"
 GameHub.Parent = DeepHubV1
+GameHub.Active = true
 GameHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 GameHub.BackgroundTransparency = 1.000
 GameHub.Position = UDim2.new(0.222222224, 0, 0.137404576, 0)
 GameHub.Size = UDim2.new(0, 406, 0, 228)
-GameHub.Active = true
+GameHub.Visible = false
 
 Arsenal.Name = "Arsenal"
 Arsenal.Parent = GameHub
@@ -97,7 +153,7 @@ Arsenal.TextScaled = true
 Arsenal.TextSize = 14.000
 Arsenal.TextWrapped = true
 
-OwlHub.Name = "Owl Hub"
+OwlHub.Name = "OwlHub"
 OwlHub.Parent = GameHub
 OwlHub.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
 OwlHub.BorderSizePixel = 0
@@ -109,36 +165,36 @@ OwlHub.TextColor3 = Color3.fromRGB(255, 255, 255)
 OwlHub.TextScaled = true
 OwlHub.TextSize = 14.000
 OwlHub.TextWrapped = true
-OwlHub.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
-end)
 
-TextButton.Parent = GameHub
-TextButton.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-TextButton.BorderSizePixel = 0
-TextButton.Position = UDim2.new(0.445812821, 0, 0.0570175424, 0)
-TextButton.Size = UDim2.new(0, 80, 0, 27)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "Blox Fruits"
-TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton.TextScaled = true
-TextButton.TextSize = 14.000
-TextButton.TextWrapped = true
+BloxFruits.Name = "BloxFruits"
+BloxFruits.Parent = GameHub
+BloxFruits.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+BloxFruits.BorderSizePixel = 0
+BloxFruits.Position = UDim2.new(0.445812821, 0, 0.0570175424, 0)
+BloxFruits.Size = UDim2.new(0, 80, 0, 27)
+BloxFruits.Font = Enum.Font.SourceSans
+BloxFruits.Text = "Blox Fruits"
+BloxFruits.TextColor3 = Color3.fromRGB(255, 255, 255)
+BloxFruits.TextScaled = true
+BloxFruits.TextSize = 14.000
+BloxFruits.TextWrapped = true
 
-TextButton_2.Parent = GameHub
-TextButton_2.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-TextButton_2.BorderSizePixel = 0
-TextButton_2.Position = UDim2.new(0.660098553, 0, 0.0570175424, 0)
-TextButton_2.Size = UDim2.new(0, 80, 0, 27)
-TextButton_2.Font = Enum.Font.SourceSans
-TextButton_2.Text = "Legends of Bone Sword"
-TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_2.TextScaled = true
-TextButton_2.TextSize = 14.000
-TextButton_2.TextWrapped = true
+LOTBS.Name = "LOTBS"
+LOTBS.Parent = GameHub
+LOTBS.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+LOTBS.BorderSizePixel = 0
+LOTBS.Position = UDim2.new(0.660098553, 0, 0.0570175424, 0)
+LOTBS.Size = UDim2.new(0, 80, 0, 27)
+LOTBS.Font = Enum.Font.SourceSans
+LOTBS.Text = "Legends of Bone Sword"
+LOTBS.TextColor3 = Color3.fromRGB(255, 255, 255)
+LOTBS.TextScaled = true
+LOTBS.TextSize = 14.000
+LOTBS.TextWrapped = true
 
 Credits.Name = "Credits"
 Credits.Parent = DeepHubV1
+Credits.Active = true
 Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Credits.BackgroundTransparency = 1.000
 Credits.Position = UDim2.new(0.222222224, 0, 0.109433964, 0)
@@ -215,6 +271,7 @@ DeepHubLabel_2.TextWrapped = true
 
 Dividers.Name = "Dividers"
 Dividers.Parent = DeepHubV1
+Dividers.Active = true
 Dividers.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Dividers.BackgroundTransparency = 1.000
 Dividers.BorderSizePixel = 0
@@ -223,6 +280,7 @@ Dividers.Size = UDim2.new(0, 413, 0, 7)
 
 Divider.Name = "Divider"
 Divider.Parent = Dividers
+Divider.Active = true
 Divider.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Divider.BorderSizePixel = 0
 Divider.Position = UDim2.new(-0.261501223, 0, 0.253544182, 0)
@@ -230,6 +288,7 @@ Divider.Size = UDim2.new(0, 521, 0, 7)
 
 Divider_2.Name = "Divider"
 Divider_2.Parent = Dividers
+Divider_2.Active = true
 Divider_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Divider_2.BorderSizePixel = 0
 Divider_2.Position = UDim2.new(0.000579824671, 0, -4.13904047, 0)
@@ -237,6 +296,7 @@ Divider_2.Size = UDim2.new(0, 7, 0, 261)
 
 Divider_3.Name = "Divider"
 Divider_3.Parent = Dividers
+Divider_3.Active = true
 Divider_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Divider_3.BorderSizePixel = 0
 Divider_3.Position = UDim2.new(-0.271186441, 0, 5.98527813, 0)
@@ -244,6 +304,7 @@ Divider_3.Size = UDim2.new(0, 116, 0, 7)
 
 Divider_4.Name = "Divider"
 Divider_4.Parent = Dividers
+Divider_4.Active = true
 Divider_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Divider_4.BorderSizePixel = 0
 Divider_4.Position = UDim2.new(-0.264827043, 0, 11.859868, 0)
@@ -251,6 +312,7 @@ Divider_4.Size = UDim2.new(0, 113, 0, 7)
 
 Divider_5.Name = "Divider"
 Divider_5.Parent = Dividers
+Divider_5.Active = true
 Divider_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Divider_5.BorderSizePixel = 0
 Divider_5.Position = UDim2.new(-0.271186441, 0, 17.8424206, 0)
@@ -277,27 +339,30 @@ Open.TextWrapped = true
 
 -- Scripts:
 
-local function URKC_fake_script() -- Close.LocalScript 
+local function LVQOV_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		game.StarterGui.DeepGUI:Destroy()
-		game.Players.LocalPlayer.PlayerGui.DeepGUI:Destroy()
+		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(URKC_fake_script)()
-local function FTJGTXP_fake_script() -- Minimize.LocalScript 
+coroutine.wrap(LVQOV_fake_script)()
+local function QREGST_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	
+end
+coroutine.wrap(QREGST_fake_script)()
+local function DBSF_fake_script() -- Minimize.LocalScript 
 	local script = Instance.new('LocalScript', Minimize)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		game.StarterGui.DeepGUI.DeepHubV1.Visible = false
-		game.Players.LocalPlayer.PlayerGui.DeepGUI.DeepHubV1.Visible = false
-		game.StarterGui.DeepGUI.OpenDeepHub.Visible = true
-		game.Players.LocalPlayer.PlayerGui.DeepGUI.OpenDeepHub.Visible = true
+		script.Parent.Parent.Parent.OpenDeepHub.Visible = true
+		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(FTJGTXP_fake_script)()
-local function SSKQBHR_fake_script() -- DeepHubV1.DraggableScript 
+coroutine.wrap(DBSF_fake_script)()
+local function ESAZNIF_fake_script() -- DeepHubV1.DraggableScript 
 	local script = Instance.new('LocalScript', DeepHubV1)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -354,8 +419,76 @@ local function SSKQBHR_fake_script() -- DeepHubV1.DraggableScript
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(SSKQBHR_fake_script)()
-local function JNLKX_fake_script() -- CreditsButton.LocalScript 
+coroutine.wrap(ESAZNIF_fake_script)()
+local function GDPRJCA_fake_script() -- SetSpeed.LocalScript 
+	local script = Instance.new('LocalScript', SetSpeed)
+
+	local Player = game.Players.LocalPlayer
+	local Character = Player.Character or Player.CharacterAdded:Wait()
+	local Humanoid = Character:WaitForChild("Humanoid")
+	
+	local TypeFrame = script.Parent -- or wherever your frame is!
+	
+	TypeFrame.FocusLost:Connect(function()
+		local speed = tonumber(TypeFrame.Text)
+		if speed then -- verifies that the player input a number!
+			Humanoid.WalkSpeed = speed
+			print("cool gui ikr")
+		end
+	end)
+end
+coroutine.wrap(GDPRJCA_fake_script)()
+local function VOIFW_fake_script() -- SetJump.LocalScript 
+	local script = Instance.new('LocalScript', SetJump)
+
+	local Player = game.Players.LocalPlayer
+	local Character = Player.Character or Player.CharacterAdded:Wait()
+	local Humanoid = Character:WaitForChild("Humanoid")
+	
+	local TypeFrame = script.Parent -- or wherever your frame is!
+	
+	TypeFrame.FocusLost:Connect(function()
+		local jump = tonumber(TypeFrame.Text)
+		if jump then -- verifies that the player input a number!
+			Humanoid.JumpPower = jump
+			print("cool gui ikr")
+		end
+	end)
+end
+coroutine.wrap(VOIFW_fake_script)()
+local function UXLU_fake_script() -- Arsenal.LocalScript 
+	local script = Instance.new('LocalScript', Arsenal)
+
+	Arsenal.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://bruh.keshhub.com/.lua"))()
+	end)
+end
+coroutine.wrap(UXLU_fake_script)()
+local function VQSDB_fake_script() -- OwlHub.LocalScript 
+	local script = Instance.new('LocalScript', OwlHub)
+
+	OwlHub.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	end)
+end
+coroutine.wrap(VQSDB_fake_script)()
+local function ALAO_fake_script() -- BloxFruits.LocalScript 
+	local script = Instance.new('LocalScript', BloxFruits)
+
+	LOTBS.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ChaosScripts/Scripts/main/Protected%20(11).lua"))()
+	end)
+end
+coroutine.wrap(ALAO_fake_script)()
+local function UUGOJB_fake_script() -- LOTBS.LocalScript 
+	local script = Instance.new('LocalScript', LOTBS)
+
+	BloxFruits.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	end)
+end
+coroutine.wrap(UUGOJB_fake_script)()
+local function TTDJCXB_fake_script() -- CreditsButton.LocalScript 
 	local script = Instance.new('LocalScript', CreditsButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -364,8 +497,8 @@ local function JNLKX_fake_script() -- CreditsButton.LocalScript
 		script.Parent.Parent.Credits.Visible = true
 	end)
 end
-coroutine.wrap(JNLKX_fake_script)()
-local function YUQK_fake_script() -- GameHubButton.LocalScript 
+coroutine.wrap(TTDJCXB_fake_script)()
+local function OAHLUQ_fake_script() -- GameHubButton.LocalScript 
 	local script = Instance.new('LocalScript', GameHubButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -374,8 +507,8 @@ local function YUQK_fake_script() -- GameHubButton.LocalScript
 		script.Parent.Parent.Credits.Visible = false
 	end)
 end
-coroutine.wrap(YUQK_fake_script)()
-local function FYME_fake_script() -- LocalPlayerButton.LocalScript 
+coroutine.wrap(OAHLUQ_fake_script)()
+local function MBFJIVR_fake_script() -- LocalPlayerButton.LocalScript 
 	local script = Instance.new('LocalScript', LocalPlayerButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -384,8 +517,8 @@ local function FYME_fake_script() -- LocalPlayerButton.LocalScript
 		script.Parent.Parent.Credits.Visible = false
 	end)
 end
-coroutine.wrap(FYME_fake_script)()
-local function XMVJJ_fake_script() -- Open.LocalScript 
+coroutine.wrap(MBFJIVR_fake_script)()
+local function HYACY_fake_script() -- Open.LocalScript 
 	local script = Instance.new('LocalScript', Open)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -395,4 +528,13 @@ local function XMVJJ_fake_script() -- Open.LocalScript
 		game.Players.LocalPlayer.PlayerGui.DeepGUI.OpenDeepHub.Visible = false
 	end)
 end
-coroutine.wrap(XMVJJ_fake_script)()
+coroutine.wrap(HYACY_fake_script)()
+local function IEAELB_fake_script() -- Open.LocalScript 
+	local script = Instance.new('LocalScript', Open)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.DeepHubV1.Visible = true
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(IEAELB_fake_script)()
