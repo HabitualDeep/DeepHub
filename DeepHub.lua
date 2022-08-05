@@ -20,12 +20,13 @@ local ProjectSlayers = Instance.new("TextButton")
 local BedWars = Instance.new("TextButton")
 local MS2 = Instance.new("TextButton")
 local Arsenal_2 = Instance.new("TextButton")
-local MS2_2 = Instance.new("TextButton")
+local BIS = Instance.new("TextButton")
 local GPO = Instance.new("TextButton")
 local BABFT = Instance.new("TextButton")
 local WFS = Instance.new("TextButton")
 local RogueDemon = Instance.new("TextButton")
 local AnimeAdventures = Instance.new("TextButton")
+local SAKIA51 = Instance.new("TextButton")
 local Credits = Instance.new("Frame")
 local SimpleSpy = Instance.new("TextButton")
 local InfYield = Instance.new("TextButton")
@@ -57,7 +58,7 @@ DeepHubV1.Parent = DeepGUI
 DeepHubV1.Active = true
 DeepHubV1.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
 DeepHubV1.BorderSizePixel = 0
-DeepHubV1.Position = UDim2.new(0.135397896, 0, 0.205940574, 0)
+DeepHubV1.Position = UDim2.new(0.111286163, 0, 0.199999973, 0)
 DeepHubV1.Size = UDim2.new(0, 522, 0, 262)
 
 Close.Name = "Close"
@@ -154,7 +155,6 @@ GameHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 GameHub.BackgroundTransparency = 1.000
 GameHub.Position = UDim2.new(0.222222224, 0, 0.137404576, 0)
 GameHub.Size = UDim2.new(0, 406, 0, 228)
-GameHub.Visible = false
 
 OwlHub.Name = "OwlHub"
 OwlHub.Parent = GameHub
@@ -199,7 +199,7 @@ ProjectSlayers.Name = "ProjectSlayers"
 ProjectSlayers.Parent = GameHub
 ProjectSlayers.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
 ProjectSlayers.BorderSizePixel = 0
-ProjectSlayers.Position = UDim2.new(0.0172413047, 0, 0.245614022, 0)
+ProjectSlayers.Position = UDim2.new(0.0172413047, 0, 0.214912266, 0)
 ProjectSlayers.Size = UDim2.new(0, 80, 0, 27)
 ProjectSlayers.Font = Enum.Font.SourceSans
 ProjectSlayers.Text = "Project Slayers"
@@ -212,7 +212,7 @@ BedWars.Name = "BedWars"
 BedWars.Parent = GameHub
 BedWars.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
 BedWars.BorderSizePixel = 0
-BedWars.Position = UDim2.new(0.231527016, 0, 0.245614022, 0)
+BedWars.Position = UDim2.new(0.231527016, 0, 0.214912266, 0)
 BedWars.Size = UDim2.new(0, 80, 0, 27)
 BedWars.Font = Enum.Font.SourceSans
 BedWars.Text = "BedWars"
@@ -225,7 +225,7 @@ MS2.Name = "MS2"
 MS2.Parent = GameHub
 MS2.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
 MS2.BorderSizePixel = 0
-MS2.Position = UDim2.new(0.445812732, 0, 0.245614022, 0)
+MS2.Position = UDim2.new(0.445812732, 0, 0.214912266, 0)
 MS2.Size = UDim2.new(0, 80, 0, 27)
 MS2.Font = Enum.Font.SourceSans
 MS2.Text = "Mining Simulator 2"
@@ -247,24 +247,24 @@ Arsenal_2.TextScaled = true
 Arsenal_2.TextSize = 14.000
 Arsenal_2.TextWrapped = true
 
-MS2_2.Name = "MS2"
-MS2_2.Parent = GameHub
-MS2_2.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-MS2_2.BorderSizePixel = 0
-MS2_2.Position = UDim2.new(0.660098433, 0, 0.245614022, 0)
-MS2_2.Size = UDim2.new(0, 80, 0, 27)
-MS2_2.Font = Enum.Font.SourceSans
-MS2_2.Text = "Grand Piece Online"
-MS2_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-MS2_2.TextScaled = true
-MS2_2.TextSize = 14.000
-MS2_2.TextWrapped = true
+BIS.Name = "BIS"
+BIS.Parent = GameHub
+BIS.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+BIS.BorderSizePixel = 0
+BIS.Position = UDim2.new(0.0172412992, 0, 0.513157904, 0)
+BIS.Size = UDim2.new(0, 80, 0, 27)
+BIS.Font = Enum.Font.SourceSans
+BIS.Text = "Break In Story"
+BIS.TextColor3 = Color3.fromRGB(255, 255, 255)
+BIS.TextScaled = true
+BIS.TextSize = 14.000
+BIS.TextWrapped = true
 
 GPO.Name = "GPO"
 GPO.Parent = GameHub
 GPO.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
 GPO.BorderSizePixel = 0
-GPO.Position = UDim2.new(0.660098433, 0, 0.245614022, 0)
+GPO.Position = UDim2.new(0.660098433, 0, 0.210526273, 0)
 GPO.Size = UDim2.new(0, 80, 0, 27)
 GPO.Font = Enum.Font.SourceSans
 GPO.Text = "Grand Piece Online"
@@ -277,7 +277,7 @@ BABFT.Name = "BABFT"
 BABFT.Parent = GameHub
 BABFT.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
 BABFT.BorderSizePixel = 0
-BABFT.Position = UDim2.new(0.0172412992, 0, 0.425438583, 0)
+BABFT.Position = UDim2.new(0.0172412992, 0, 0.36403507, 0)
 BABFT.Size = UDim2.new(0, 80, 0, 27)
 BABFT.Font = Enum.Font.SourceSans
 BABFT.Text = "Build a Boat for Treasure"
@@ -290,7 +290,7 @@ WFS.Name = "WFS"
 WFS.Parent = GameHub
 WFS.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
 WFS.BorderSizePixel = 0
-WFS.Position = UDim2.new(0.231527016, 0, 0.425438583, 0)
+WFS.Position = UDim2.new(0.231527016, 0, 0.36403507, 0)
 WFS.Size = UDim2.new(0, 80, 0, 27)
 WFS.Font = Enum.Font.SourceSans
 WFS.Text = "Weapon Fighting Simulator"
@@ -303,7 +303,7 @@ RogueDemon.Name = "RogueDemon"
 RogueDemon.Parent = GameHub
 RogueDemon.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
 RogueDemon.BorderSizePixel = 0
-RogueDemon.Position = UDim2.new(0.445812732, 0, 0.425438583, 0)
+RogueDemon.Position = UDim2.new(0.445812732, 0, 0.36403507, 0)
 RogueDemon.Size = UDim2.new(0, 80, 0, 27)
 RogueDemon.Font = Enum.Font.SourceSans
 RogueDemon.Text = "Rogue Demon"
@@ -316,14 +316,27 @@ AnimeAdventures.Name = "AnimeAdventures"
 AnimeAdventures.Parent = GameHub
 AnimeAdventures.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
 AnimeAdventures.BorderSizePixel = 0
-AnimeAdventures.Position = UDim2.new(0.660098433, 0, 0.425438583, 0)
+AnimeAdventures.Position = UDim2.new(0.660098433, 0, 0.36403507, 0)
 AnimeAdventures.Size = UDim2.new(0, 80, 0, 27)
 AnimeAdventures.Font = Enum.Font.SourceSans
-AnimeAdventures.Text = "Grand Piece Online"
+AnimeAdventures.Text = "Anime Adventures"
 AnimeAdventures.TextColor3 = Color3.fromRGB(255, 255, 255)
 AnimeAdventures.TextScaled = true
 AnimeAdventures.TextSize = 14.000
 AnimeAdventures.TextWrapped = true
+
+SAKIA51.Name = "SAKIA51"
+SAKIA51.Parent = GameHub
+SAKIA51.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+SAKIA51.BorderSizePixel = 0
+SAKIA51.Position = UDim2.new(0.231527016, 0, 0.513157904, 0)
+SAKIA51.Size = UDim2.new(0, 80, 0, 27)
+SAKIA51.Font = Enum.Font.SourceSans
+SAKIA51.Text = "Survive and kill in Area 51"
+SAKIA51.TextColor3 = Color3.fromRGB(255, 255, 255)
+SAKIA51.TextScaled = true
+SAKIA51.TextSize = 14.000
+SAKIA51.TextWrapped = true
 
 Credits.Name = "Credits"
 Credits.Parent = DeepHubV1
@@ -332,6 +345,7 @@ Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Credits.BackgroundTransparency = 1.000
 Credits.Position = UDim2.new(0.222222224, 0, 0.109433964, 0)
 Credits.Size = UDim2.new(0, 406, 0, 236)
+Credits.Visible = false
 
 SimpleSpy.Name = "SimpleSpy"
 SimpleSpy.Parent = Credits
@@ -539,21 +553,21 @@ Open.TextWrapped = true
 
 -- Scripts:
 
-local function OINKX_fake_script() -- Close.LocalScript 
+local function FEELATC_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(OINKX_fake_script)()
-local function HJXD_fake_script() -- Close.LocalScript 
+coroutine.wrap(FEELATC_fake_script)()
+local function VKWT_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	
 end
-coroutine.wrap(HJXD_fake_script)()
-local function XQNDP_fake_script() -- SetSpeed.LocalScript 
+coroutine.wrap(VKWT_fake_script)()
+local function JDRYSET_fake_script() -- SetSpeed.LocalScript 
 	local script = Instance.new('LocalScript', SetSpeed)
 
 	local Player = game.Players.LocalPlayer
@@ -570,8 +584,8 @@ local function XQNDP_fake_script() -- SetSpeed.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XQNDP_fake_script)()
-local function HSVIZBA_fake_script() -- SetJump.LocalScript 
+coroutine.wrap(JDRYSET_fake_script)()
+local function DGKWS_fake_script() -- SetJump.LocalScript 
 	local script = Instance.new('LocalScript', SetJump)
 
 	local Player = game.Players.LocalPlayer
@@ -588,40 +602,40 @@ local function HSVIZBA_fake_script() -- SetJump.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HSVIZBA_fake_script)()
-local function VJEXQ_fake_script() -- Arsenal.LocalScript 
+coroutine.wrap(DGKWS_fake_script)()
+local function FXZPLGH_fake_script() -- Arsenal.LocalScript 
 	local script = Instance.new('LocalScript', Arsenal)
 
 	Arsenal.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://bruh.keshhub.com/.lua"))()
 	end)
 end
-coroutine.wrap(VJEXQ_fake_script)()
-local function LOROBW_fake_script() -- OwlHub.LocalScript 
+coroutine.wrap(FXZPLGH_fake_script)()
+local function QXAIC_fake_script() -- OwlHub.LocalScript 
 	local script = Instance.new('LocalScript', OwlHub)
 
 	OwlHub.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 	end)
 end
-coroutine.wrap(LOROBW_fake_script)()
-local function PTGWLDY_fake_script() -- BloxFruits.LocalScript 
+coroutine.wrap(QXAIC_fake_script)()
+local function JCWEGCU_fake_script() -- BloxFruits.LocalScript 
 	local script = Instance.new('LocalScript', BloxFruits)
 
 	LOTBS.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ChaosScripts/Scripts/main/Protected%20(11).lua"))()
 	end)
 end
-coroutine.wrap(PTGWLDY_fake_script)()
-local function WEXNYT_fake_script() -- LOTBS.LocalScript 
+coroutine.wrap(JCWEGCU_fake_script)()
+local function EXRHOF_fake_script() -- LOTBS.LocalScript 
 	local script = Instance.new('LocalScript', LOTBS)
 
 	BloxFruits.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 	end)
 end
-coroutine.wrap(WEXNYT_fake_script)()
-local function RDSL_fake_script() -- ProjectSlayers.LocalScript 
+coroutine.wrap(EXRHOF_fake_script)()
+local function IKMMAB_fake_script() -- ProjectSlayers.LocalScript 
 	local script = Instance.new('LocalScript', ProjectSlayers)
 
 	ProjectSlayers.MouseButton1Click:Connect(function()
@@ -629,104 +643,112 @@ local function RDSL_fake_script() -- ProjectSlayers.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/TrapstarKSSKSKSKKS/Main/main/Project%20Slayer"))()
 	end)
 end
-coroutine.wrap(RDSL_fake_script)()
-local function SMXLNSC_fake_script() -- BedWars.LocalScript 
+coroutine.wrap(IKMMAB_fake_script)()
+local function RWON_fake_script() -- BedWars.LocalScript 
 	local script = Instance.new('LocalScript', BedWars)
 
 	BedWars.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 	end)
 end
-coroutine.wrap(SMXLNSC_fake_script)()
-local function EQWFKNA_fake_script() -- MS2.LocalScript 
+coroutine.wrap(RWON_fake_script)()
+local function JHEECCA_fake_script() -- MS2.LocalScript 
 	local script = Instance.new('LocalScript', MS2)
 
 	MS2.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet"https://rawscripts.net/raw/Project-Meow_421")()
 	end)
 end
-coroutine.wrap(EQWFKNA_fake_script)()
-local function TJGLKK_fake_script() -- Arsenal_2.LocalScript 
+coroutine.wrap(JHEECCA_fake_script)()
+local function IOBAYPG_fake_script() -- Arsenal_2.LocalScript 
 	local script = Instance.new('LocalScript', Arsenal_2)
 
 	Arsenal.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://bruh.keshhub.com/.lua"))()
 	end)
 end
-coroutine.wrap(TJGLKK_fake_script)()
-local function TTEH_fake_script() -- MS2_2.LocalScript 
-	local script = Instance.new('LocalScript', MS2_2)
+coroutine.wrap(IOBAYPG_fake_script)()
+local function YBNWVH_fake_script() -- BIS.LocalScript 
+	local script = Instance.new('LocalScript', BIS)
 
-	MS2.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet"https://rawscripts.net/raw/Project-Meow_421")()
+	BIS.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/XHub/main/HubLoader.lua", true))()
 	end)
 end
-coroutine.wrap(TTEH_fake_script)()
-local function BDMCETM_fake_script() -- GPO.LocalScript 
+coroutine.wrap(YBNWVH_fake_script)()
+local function BPEDVA_fake_script() -- GPO.LocalScript 
 	local script = Instance.new('LocalScript', GPO)
 
 	GPO.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CFA-HUB/CFA-HUB/main/cfahubfree.lua"))()
 	end)
 end
-coroutine.wrap(BDMCETM_fake_script)()
-local function IROP_fake_script() -- BABFT.LocalScript 
+coroutine.wrap(BPEDVA_fake_script)()
+local function UFMSRIS_fake_script() -- BABFT.LocalScript 
 	local script = Instance.new('LocalScript', BABFT)
 
 	BABFT.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/OopssGui/main/MainOopssGui.lua", true))()
 	end)
 end
-coroutine.wrap(IROP_fake_script)()
-local function IXKZWHX_fake_script() -- WFS.LocalScript 
+coroutine.wrap(UFMSRIS_fake_script)()
+local function YLVAQ_fake_script() -- WFS.LocalScript 
 	local script = Instance.new('LocalScript', WFS)
 
 	WFS.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
 	end)
 end
-coroutine.wrap(IXKZWHX_fake_script)()
-local function JIHT_fake_script() -- RogueDemon.LocalScript 
+coroutine.wrap(YLVAQ_fake_script)()
+local function FEIP_fake_script() -- RogueDemon.LocalScript 
 	local script = Instance.new('LocalScript', RogueDemon)
 
 	RogueDemon.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/itsyouranya/free/main/roguedemon.lua'),true))()
 	end)
 end
-coroutine.wrap(JIHT_fake_script)()
-local function JVQNOZB_fake_script() -- AnimeAdventures.LocalScript 
+coroutine.wrap(FEIP_fake_script)()
+local function QZFNXM_fake_script() -- AnimeAdventures.LocalScript 
 	local script = Instance.new('LocalScript', AnimeAdventures)
 
 	AnimeAdventures.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ArponAG/Scripts/main/AnimeAdventures.lua"))()
 	end)
 end
-coroutine.wrap(JVQNOZB_fake_script)()
-local function REDPKH_fake_script() -- SimpleSpy.LocalScript 
+coroutine.wrap(QZFNXM_fake_script)()
+local function DUZQNLF_fake_script() -- SAKIA51.LocalScript 
+	local script = Instance.new('LocalScript', SAKIA51)
+
+	SAKIA51.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://controlc.com/79adc7c4", true))()
+	end)
+end
+coroutine.wrap(DUZQNLF_fake_script)()
+local function WTDIJW_fake_script() -- SimpleSpy.LocalScript 
 	local script = Instance.new('LocalScript', SimpleSpy)
 
 	SimpleSpy.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/bCghX33W", true))()
 	end)
 end
-coroutine.wrap(REDPKH_fake_script)()
-local function CQMVF_fake_script() -- InfYield.LocalScript 
+coroutine.wrap(WTDIJW_fake_script)()
+local function GEMEC_fake_script() -- InfYield.LocalScript 
 	local script = Instance.new('LocalScript', InfYield)
 
 	InfYield.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(CQMVF_fake_script)()
-local function CZSW_fake_script() -- DEX.LocalScript 
+coroutine.wrap(GEMEC_fake_script)()
+local function RXHY_fake_script() -- DEX.LocalScript 
 	local script = Instance.new('LocalScript', DEX)
 
 	DEX.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://controlc.com/548a5a33", true))()
 	end)
 end
-coroutine.wrap(CZSW_fake_script)()
-local function RCJRQAZ_fake_script() -- CreditsButton.LocalScript 
+coroutine.wrap(RXHY_fake_script)()
+local function AMLFXKI_fake_script() -- CreditsButton.LocalScript 
 	local script = Instance.new('LocalScript', CreditsButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -735,8 +757,8 @@ local function RCJRQAZ_fake_script() -- CreditsButton.LocalScript
 		script.Parent.Parent.Credits.Visible = true
 	end)
 end
-coroutine.wrap(RCJRQAZ_fake_script)()
-local function EAXJTK_fake_script() -- GameHubButton.LocalScript 
+coroutine.wrap(AMLFXKI_fake_script)()
+local function FSTR_fake_script() -- GameHubButton.LocalScript 
 	local script = Instance.new('LocalScript', GameHubButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -745,8 +767,8 @@ local function EAXJTK_fake_script() -- GameHubButton.LocalScript
 		script.Parent.Parent.Credits.Visible = false
 	end)
 end
-coroutine.wrap(EAXJTK_fake_script)()
-local function GOTLQVJ_fake_script() -- LocalPlayerButton.LocalScript 
+coroutine.wrap(FSTR_fake_script)()
+local function DPMZOP_fake_script() -- LocalPlayerButton.LocalScript 
 	local script = Instance.new('LocalScript', LocalPlayerButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -755,8 +777,8 @@ local function GOTLQVJ_fake_script() -- LocalPlayerButton.LocalScript
 		script.Parent.Parent.Credits.Visible = false
 	end)
 end
-coroutine.wrap(GOTLQVJ_fake_script)()
-local function QRXEXD_fake_script() -- DeepHubV1.DraggableScript 
+coroutine.wrap(DPMZOP_fake_script)()
+local function XXIN_fake_script() -- DeepHubV1.DraggableScript 
 	local script = Instance.new('LocalScript', DeepHubV1)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -813,8 +835,8 @@ local function QRXEXD_fake_script() -- DeepHubV1.DraggableScript
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(QRXEXD_fake_script)()
-local function MRWXRA_fake_script() -- Minimize.LocalScript 
+coroutine.wrap(XXIN_fake_script)()
+local function SDHTCN_fake_script() -- Minimize.LocalScript 
 	local script = Instance.new('LocalScript', Minimize)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -822,8 +844,20 @@ local function MRWXRA_fake_script() -- Minimize.LocalScript
 		script.Parent.Parent.Parent.OpenDeepHub.Visible = true
 	end)
 end
-coroutine.wrap(MRWXRA_fake_script)()
-local function YHXA_fake_script() -- Open.LocalScript 
+coroutine.wrap(SDHTCN_fake_script)()
+local function WTSZC_fake_script() -- DeepHubV1.Animation 
+	local script = Instance.new('LocalScript', DeepHubV1)
+
+	local object = script.Parent
+	object.AnchorPoint = Vector2.new(0.5, 0.5)
+	object.Position = UDim2.new(0, 0, 0, 0)
+	
+	wait(0.5)
+	
+	object:TweenPosition(UDim2.new(0.5, 0, 0.5, 0))
+end
+coroutine.wrap(WTSZC_fake_script)()
+local function NEBRQ_fake_script() -- Open.LocalScript 
 	local script = Instance.new('LocalScript', Open)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -833,8 +867,8 @@ local function YHXA_fake_script() -- Open.LocalScript
 		game.Players.LocalPlayer.PlayerGui.DeepGUI.OpenDeepHub.Visible = false
 	end)
 end
-coroutine.wrap(YHXA_fake_script)()
-local function DHTX_fake_script() -- Open.LocalScript 
+coroutine.wrap(NEBRQ_fake_script)()
+local function MSKTBP_fake_script() -- Open.LocalScript 
 	local script = Instance.new('LocalScript', Open)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -843,4 +877,33 @@ local function DHTX_fake_script() -- Open.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(DHTX_fake_script)()
+coroutine.wrap(MSKTBP_fake_script)()
+local function EGLHOX_fake_script() -- DeepGUI.Keybind 
+	local script = Instance.new('LocalScript', DeepGUI)
+
+	local UserInputService = game:GetService("UserInputService")
+	local Frame = script.Parent.DeepHubV1
+	UserInputService.InputBegan:Connect(function(input,gameProccesedEvent)
+		if input.KeyCode == Enum.KeyCode.K then
+			Frame.Visible = not Frame.Visible
+		end
+	end)
+end
+coroutine.wrap(EGLHOX_fake_script)()
+local function QKUHNZD_fake_script() -- DeepGUI.Notif 
+	local script = Instance.new('LocalScript', DeepGUI)
+
+	wait(2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Made By HabitaulDeep";
+		Text = "Make Sure to join the discord for updates";
+		Duration = "15";
+	})
+	wait(2)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "discord.gg/exygZVbGGa";
+		Text = "Press 'K' to Toggle the GUI";
+		Duration = "15";
+		})
+end
+coroutine.wrap(QKUHNZD_fake_script)()
