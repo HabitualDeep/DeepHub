@@ -60,7 +60,6 @@ DeepHubV1.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
 DeepHubV1.BorderSizePixel = 0
 DeepHubV1.Position = UDim2.new(0.111286163, 0, 0.199999973, 0)
 DeepHubV1.Size = UDim2.new(0, 522, 0, 262)
-DeepHubV1.Draggable = true
 
 Close.Name = "Close"
 Close.Parent = DeepHubV1
