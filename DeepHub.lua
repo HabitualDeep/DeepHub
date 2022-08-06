@@ -720,7 +720,7 @@ local function DUZQNLF_fake_script() -- SAKIA51.LocalScript
 	local script = Instance.new('LocalScript', SAKIA51)
 
 	SAKIA51.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://controlc.com/79adc7c4", true))()
+		loadstring(game:HttpGet("https://controlc.com/459055b0", true))()
 	end)
 end
 coroutine.wrap(DUZQNLF_fake_script)()
