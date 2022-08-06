@@ -720,7 +720,7 @@ local function DUZQNLF_fake_script() -- SAKIA51.LocalScript
 	local script = Instance.new('LocalScript', SAKIA51)
 
 	SAKIA51.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://controlc.com/459055b0", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Bjkefe2/Survive-And-Killer-Guii/main/Survive%20And%20Killer"))()
 	end)
 end
 coroutine.wrap(DUZQNLF_fake_script)()
