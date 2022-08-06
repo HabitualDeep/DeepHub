@@ -27,6 +27,9 @@ local WFS = Instance.new("TextButton")
 local RogueDemon = Instance.new("TextButton")
 local AnimeAdventures = Instance.new("TextButton")
 local SAKIA51 = Instance.new("TextButton")
+local RainbowFriends = Instance.new("TextButton")
+local OPG = Instance.new("TextButton")
+local DQ = Instance.new("TextButton")
 local Credits = Instance.new("Frame")
 local SimpleSpy = Instance.new("TextButton")
 local InfYield = Instance.new("TextButton")
@@ -57,7 +60,7 @@ DeepHubV1.Name = "DeepHubV1"
 DeepHubV1.Parent = DeepGUI
 DeepHubV1.Active = true
 DeepHubV1.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-DeepHubV1.BorderSizePixel = 0
+DeepHubV1.BorderSizePixel = 5
 DeepHubV1.Position = UDim2.new(0.111286163, 0, 0.199999973, 0)
 DeepHubV1.Size = UDim2.new(0, 522, 0, 262)
 
@@ -338,6 +341,45 @@ SAKIA51.TextScaled = true
 SAKIA51.TextSize = 14.000
 SAKIA51.TextWrapped = true
 
+RainbowFriends.Name = "RainbowFriends"
+RainbowFriends.Parent = GameHub
+RainbowFriends.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+RainbowFriends.BorderSizePixel = 0
+RainbowFriends.Position = UDim2.new(0.445812732, 0, 0.513157904, 0)
+RainbowFriends.Size = UDim2.new(0, 80, 0, 27)
+RainbowFriends.Font = Enum.Font.SourceSans
+RainbowFriends.Text = "Rainbow Friends"
+RainbowFriends.TextColor3 = Color3.fromRGB(255, 255, 255)
+RainbowFriends.TextScaled = true
+RainbowFriends.TextSize = 14.000
+RainbowFriends.TextWrapped = true
+
+OPG.Name = "OPG"
+OPG.Parent = GameHub
+OPG.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+OPG.BorderSizePixel = 0
+OPG.Position = UDim2.new(0.660098433, 0, 0.513157904, 0)
+OPG.Size = UDim2.new(0, 80, 0, 27)
+OPG.Font = Enum.Font.SourceSans
+OPG.Text = "A One Piece Game"
+OPG.TextColor3 = Color3.fromRGB(255, 255, 255)
+OPG.TextScaled = true
+OPG.TextSize = 14.000
+OPG.TextWrapped = true
+
+DQ.Name = "DQ"
+DQ.Parent = GameHub
+DQ.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+DQ.BorderSizePixel = 0
+DQ.Position = UDim2.new(0.0172412992, 0, 0.671052635, 0)
+DQ.Size = UDim2.new(0, 80, 0, 27)
+DQ.Font = Enum.Font.SourceSans
+DQ.Text = "Dungeon Quest"
+DQ.TextColor3 = Color3.fromRGB(255, 255, 255)
+DQ.TextScaled = true
+DQ.TextSize = 14.000
+DQ.TextWrapped = true
+
 Credits.Name = "Credits"
 Credits.Parent = DeepHubV1
 Credits.Active = true
@@ -553,21 +595,21 @@ Open.TextWrapped = true
 
 -- Scripts:
 
-local function FEELATC_fake_script() -- Close.LocalScript 
+local function UKOQNAV_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(FEELATC_fake_script)()
-local function VKWT_fake_script() -- Close.LocalScript 
+coroutine.wrap(UKOQNAV_fake_script)()
+local function CQDYLJT_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	
 end
-coroutine.wrap(VKWT_fake_script)()
-local function JDRYSET_fake_script() -- SetSpeed.LocalScript 
+coroutine.wrap(CQDYLJT_fake_script)()
+local function PHURQI_fake_script() -- SetSpeed.LocalScript 
 	local script = Instance.new('LocalScript', SetSpeed)
 
 	local Player = game.Players.LocalPlayer
@@ -584,8 +626,8 @@ local function JDRYSET_fake_script() -- SetSpeed.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JDRYSET_fake_script)()
-local function DGKWS_fake_script() -- SetJump.LocalScript 
+coroutine.wrap(PHURQI_fake_script)()
+local function XDOZ_fake_script() -- SetJump.LocalScript 
 	local script = Instance.new('LocalScript', SetJump)
 
 	local Player = game.Players.LocalPlayer
@@ -602,40 +644,40 @@ local function DGKWS_fake_script() -- SetJump.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DGKWS_fake_script)()
-local function FXZPLGH_fake_script() -- Arsenal.LocalScript 
+coroutine.wrap(XDOZ_fake_script)()
+local function GWFHJ_fake_script() -- Arsenal.LocalScript 
 	local script = Instance.new('LocalScript', Arsenal)
 
 	Arsenal.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://bruh.keshhub.com/.lua"))()
 	end)
 end
-coroutine.wrap(FXZPLGH_fake_script)()
-local function QXAIC_fake_script() -- OwlHub.LocalScript 
+coroutine.wrap(GWFHJ_fake_script)()
+local function BMQYEQJ_fake_script() -- OwlHub.LocalScript 
 	local script = Instance.new('LocalScript', OwlHub)
 
 	OwlHub.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 	end)
 end
-coroutine.wrap(QXAIC_fake_script)()
-local function JCWEGCU_fake_script() -- BloxFruits.LocalScript 
+coroutine.wrap(BMQYEQJ_fake_script)()
+local function HZKOBJ_fake_script() -- BloxFruits.LocalScript 
 	local script = Instance.new('LocalScript', BloxFruits)
 
-	LOTBS.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/ChaosScripts/Scripts/main/Protected%20(11).lua"))()
+	BloxFruits.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
 	end)
 end
-coroutine.wrap(JCWEGCU_fake_script)()
-local function EXRHOF_fake_script() -- LOTBS.LocalScript 
+coroutine.wrap(HZKOBJ_fake_script)()
+local function SPBL_fake_script() -- LOTBS.LocalScript 
 	local script = Instance.new('LocalScript', LOTBS)
 
 	BloxFruits.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 	end)
 end
-coroutine.wrap(EXRHOF_fake_script)()
-local function IKMMAB_fake_script() -- ProjectSlayers.LocalScript 
+coroutine.wrap(SPBL_fake_script)()
+local function ENLEECF_fake_script() -- ProjectSlayers.LocalScript 
 	local script = Instance.new('LocalScript', ProjectSlayers)
 
 	ProjectSlayers.MouseButton1Click:Connect(function()
@@ -643,112 +685,137 @@ local function IKMMAB_fake_script() -- ProjectSlayers.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/TrapstarKSSKSKSKKS/Main/main/Project%20Slayer"))()
 	end)
 end
-coroutine.wrap(IKMMAB_fake_script)()
-local function RWON_fake_script() -- BedWars.LocalScript 
+coroutine.wrap(ENLEECF_fake_script)()
+local function KKSPSEQ_fake_script() -- BedWars.LocalScript 
 	local script = Instance.new('LocalScript', BedWars)
 
 	BedWars.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 	end)
 end
-coroutine.wrap(RWON_fake_script)()
-local function JHEECCA_fake_script() -- MS2.LocalScript 
+coroutine.wrap(KKSPSEQ_fake_script)()
+local function QXCJ_fake_script() -- MS2.LocalScript 
 	local script = Instance.new('LocalScript', MS2)
 
 	MS2.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet"https://rawscripts.net/raw/Project-Meow_421")()
 	end)
 end
-coroutine.wrap(JHEECCA_fake_script)()
-local function IOBAYPG_fake_script() -- Arsenal_2.LocalScript 
+coroutine.wrap(QXCJ_fake_script)()
+local function YXBIWAR_fake_script() -- Arsenal_2.LocalScript 
 	local script = Instance.new('LocalScript', Arsenal_2)
 
 	Arsenal.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://bruh.keshhub.com/.lua"))()
 	end)
 end
-coroutine.wrap(IOBAYPG_fake_script)()
-local function YBNWVH_fake_script() -- BIS.LocalScript 
+coroutine.wrap(YXBIWAR_fake_script)()
+local function LJNV_fake_script() -- BIS.LocalScript 
 	local script = Instance.new('LocalScript', BIS)
 
 	BIS.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/XHub/main/HubLoader.lua", true))()
 	end)
 end
-coroutine.wrap(YBNWVH_fake_script)()
-local function BPEDVA_fake_script() -- GPO.LocalScript 
+coroutine.wrap(LJNV_fake_script)()
+local function RBVM_fake_script() -- GPO.LocalScript 
 	local script = Instance.new('LocalScript', GPO)
 
 	GPO.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CFA-HUB/CFA-HUB/main/cfahubfree.lua"))()
 	end)
 end
-coroutine.wrap(BPEDVA_fake_script)()
-local function UFMSRIS_fake_script() -- BABFT.LocalScript 
+coroutine.wrap(RBVM_fake_script)()
+local function BYYF_fake_script() -- BABFT.LocalScript 
 	local script = Instance.new('LocalScript', BABFT)
 
 	BABFT.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/OopssGui/main/MainOopssGui.lua", true))()
 	end)
 end
-coroutine.wrap(UFMSRIS_fake_script)()
-local function YLVAQ_fake_script() -- WFS.LocalScript 
+coroutine.wrap(BYYF_fake_script)()
+local function SKSAYBF_fake_script() -- WFS.LocalScript 
 	local script = Instance.new('LocalScript', WFS)
 
 	WFS.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
 	end)
 end
-coroutine.wrap(YLVAQ_fake_script)()
-local function FEIP_fake_script() -- RogueDemon.LocalScript 
+coroutine.wrap(SKSAYBF_fake_script)()
+local function HFOC_fake_script() -- RogueDemon.LocalScript 
 	local script = Instance.new('LocalScript', RogueDemon)
 
 	RogueDemon.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/itsyouranya/free/main/roguedemon.lua'),true))()
 	end)
 end
-coroutine.wrap(FEIP_fake_script)()
-local function QZFNXM_fake_script() -- AnimeAdventures.LocalScript 
+coroutine.wrap(HFOC_fake_script)()
+local function EFMAEGV_fake_script() -- AnimeAdventures.LocalScript 
 	local script = Instance.new('LocalScript', AnimeAdventures)
 
 	AnimeAdventures.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ArponAG/Scripts/main/AnimeAdventures.lua"))()
 	end)
 end
-coroutine.wrap(QZFNXM_fake_script)()
-local function DUZQNLF_fake_script() -- SAKIA51.LocalScript 
+coroutine.wrap(EFMAEGV_fake_script)()
+local function PXISTIH_fake_script() -- SAKIA51.LocalScript 
 	local script = Instance.new('LocalScript', SAKIA51)
 
 	SAKIA51.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Bjkefe2/Survive-And-Killer-Guii/main/Survive%20And%20Killer"))()
 	end)
 end
-coroutine.wrap(DUZQNLF_fake_script)()
-local function WTDIJW_fake_script() -- SimpleSpy.LocalScript 
+coroutine.wrap(PXISTIH_fake_script)()
+local function OEZR_fake_script() -- RainbowFriends.LocalScript 
+	local script = Instance.new('LocalScript', RainbowFriends)
+
+	RainbowFriends.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/yVhAwibN"))()
+	end)
+end
+coroutine.wrap(OEZR_fake_script)()
+local function SWSSYO_fake_script() -- OPG.LocalScript 
+	local script = Instance.new('LocalScript', OPG)
+
+	OPG.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://www.6footscripts.com/Scripts/6FootHub/Hub.lua'))()
+		loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+	end)
+end
+coroutine.wrap(SWSSYO_fake_script)()
+local function DBJNV_fake_script() -- DQ.LocalScript 
+	local script = Instance.new('LocalScript', DQ)
+
+	DQ.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/F5vSFHZt", true))()
+	end)
+end
+coroutine.wrap(DBJNV_fake_script)()
+local function AMVHHMS_fake_script() -- SimpleSpy.LocalScript 
 	local script = Instance.new('LocalScript', SimpleSpy)
 
 	SimpleSpy.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/bCghX33W", true))()
 	end)
 end
-coroutine.wrap(WTDIJW_fake_script)()
-local function GEMEC_fake_script() -- InfYield.LocalScript 
+coroutine.wrap(AMVHHMS_fake_script)()
+local function SSXTU_fake_script() -- InfYield.LocalScript 
 	local script = Instance.new('LocalScript', InfYield)
 
 	InfYield.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(GEMEC_fake_script)()
-local function RXHY_fake_script() -- DEX.LocalScript 
+coroutine.wrap(SSXTU_fake_script)()
+local function KIDPTC_fake_script() -- DEX.LocalScript 
 	local script = Instance.new('LocalScript', DEX)
 
 	DEX.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://controlc.com/548a5a33", true))()
 	end)
 end
-coroutine.wrap(RXHY_fake_script)()
-local function AMLFXKI_fake_script() -- CreditsButton.LocalScript 
+coroutine.wrap(KIDPTC_fake_script)()
+local function ZOXT_fake_script() -- CreditsButton.LocalScript 
 	local script = Instance.new('LocalScript', CreditsButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -757,8 +824,8 @@ local function AMLFXKI_fake_script() -- CreditsButton.LocalScript
 		script.Parent.Parent.Credits.Visible = true
 	end)
 end
-coroutine.wrap(AMLFXKI_fake_script)()
-local function FSTR_fake_script() -- GameHubButton.LocalScript 
+coroutine.wrap(ZOXT_fake_script)()
+local function WMBOR_fake_script() -- GameHubButton.LocalScript 
 	local script = Instance.new('LocalScript', GameHubButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -767,8 +834,8 @@ local function FSTR_fake_script() -- GameHubButton.LocalScript
 		script.Parent.Parent.Credits.Visible = false
 	end)
 end
-coroutine.wrap(FSTR_fake_script)()
-local function DPMZOP_fake_script() -- LocalPlayerButton.LocalScript 
+coroutine.wrap(WMBOR_fake_script)()
+local function TTKABS_fake_script() -- LocalPlayerButton.LocalScript 
 	local script = Instance.new('LocalScript', LocalPlayerButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -777,8 +844,8 @@ local function DPMZOP_fake_script() -- LocalPlayerButton.LocalScript
 		script.Parent.Parent.Credits.Visible = false
 	end)
 end
-coroutine.wrap(DPMZOP_fake_script)()
-local function XXIN_fake_script() -- DeepHubV1.DraggableScript 
+coroutine.wrap(TTKABS_fake_script)()
+local function IYFERAU_fake_script() -- DeepHubV1.DraggableScript 
 	local script = Instance.new('LocalScript', DeepHubV1)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -835,8 +902,8 @@ local function XXIN_fake_script() -- DeepHubV1.DraggableScript
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(XXIN_fake_script)()
-local function SDHTCN_fake_script() -- Minimize.LocalScript 
+coroutine.wrap(IYFERAU_fake_script)()
+local function IBTWUZ_fake_script() -- Minimize.LocalScript 
 	local script = Instance.new('LocalScript', Minimize)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -844,8 +911,8 @@ local function SDHTCN_fake_script() -- Minimize.LocalScript
 		script.Parent.Parent.Parent.OpenDeepHub.Visible = true
 	end)
 end
-coroutine.wrap(SDHTCN_fake_script)()
-local function WTSZC_fake_script() -- DeepHubV1.Animation 
+coroutine.wrap(IBTWUZ_fake_script)()
+local function RPMB_fake_script() -- DeepHubV1.Animation 
 	local script = Instance.new('LocalScript', DeepHubV1)
 
 	local object = script.Parent
@@ -856,8 +923,8 @@ local function WTSZC_fake_script() -- DeepHubV1.Animation
 	
 	object:TweenPosition(UDim2.new(0.5, 0, 0.5, 0))
 end
-coroutine.wrap(WTSZC_fake_script)()
-local function NEBRQ_fake_script() -- Open.LocalScript 
+coroutine.wrap(RPMB_fake_script)()
+local function WLMOZ_fake_script() -- Open.LocalScript 
 	local script = Instance.new('LocalScript', Open)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -867,8 +934,8 @@ local function NEBRQ_fake_script() -- Open.LocalScript
 		game.Players.LocalPlayer.PlayerGui.DeepGUI.OpenDeepHub.Visible = false
 	end)
 end
-coroutine.wrap(NEBRQ_fake_script)()
-local function MSKTBP_fake_script() -- Open.LocalScript 
+coroutine.wrap(WLMOZ_fake_script)()
+local function ZAGZZX_fake_script() -- Open.LocalScript 
 	local script = Instance.new('LocalScript', Open)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -877,8 +944,8 @@ local function MSKTBP_fake_script() -- Open.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(MSKTBP_fake_script)()
-local function EGLHOX_fake_script() -- DeepGUI.Keybind 
+coroutine.wrap(ZAGZZX_fake_script)()
+local function OOUH_fake_script() -- DeepGUI.Keybind 
 	local script = Instance.new('LocalScript', DeepGUI)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -889,8 +956,8 @@ local function EGLHOX_fake_script() -- DeepGUI.Keybind
 		end
 	end)
 end
-coroutine.wrap(EGLHOX_fake_script)()
-local function QKUHNZD_fake_script() -- DeepGUI.Notif 
+coroutine.wrap(OOUH_fake_script)()
+local function OHYAHKQ_fake_script() -- DeepGUI.Notif 
 	local script = Instance.new('LocalScript', DeepGUI)
 
 	wait(2)
@@ -906,4 +973,4 @@ local function QKUHNZD_fake_script() -- DeepGUI.Notif
 		Duration = "15";
 		})
 end
-coroutine.wrap(QKUHNZD_fake_script)()
+coroutine.wrap(OHYAHKQ_fake_script)()
